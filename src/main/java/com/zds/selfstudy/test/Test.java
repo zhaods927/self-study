@@ -2,6 +2,7 @@ package com.zds.selfstudy.test;
 
 import com.zds.selfstudy.algorithm.tree.TreeNode;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -23,6 +24,12 @@ public class Test {
             Integer poll = queue.poll();
             System.out.println(poll);
         }
+
+        int[] array = {0, 4, 5, 45, 23, 7, 6, 7, 1, 10};
+        int[] arr = new int[array.length];
+
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(arr));
     }
 
 
